@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="text-align:center">{{search|title}}</h2>
+<div class="row">
+<div class="col s4">
+    <div class="card">
+        <div class="card-image">
+            <a href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD////MzMzj4+O3t7fx8fGmpqaysrKOjo7Gxsa9vb38/PypqamsrKzu7u5ra2vc3Nx4eHglJSXS0tIQEBBgYGBFRUXCwsJMTEw3Nzeenp4bGxtYWFiCgoLf39+YmJiGhoYxMTEiIiJUVFR0dHQNDQ2QjkL6AAADdklEQVR4nO3c61LiQBCGYQYIIQQ0KoiALLC693+LKx4ZyImkU92J7/NXquyvksxMegZ6PQAAAAAAAAAAAAAAAAAAAAAA0C3zl7l2CU3aRoFzz9pVNGYzdO9utQtpymc+5xbalTTjzn171K6lEcufgE67lkYMTgLG2sU0ITgJ6CLtahpwegWdG2uXI2/iBezgY3jrB+xr1yMv9hN2bzac+gEH2vXI8wN2cFE68gMuteuR5z+FHZztF/4lfNKuR97MC3inXU4DvOXMXruaJpwG7OSb7+Yn381Ku5hGHL4DrrVLacjqM1+oXUhj3u7SeBB28gHspsV4FIazcfbLw/NukgQuGEThuH3dqKfwZOZL1veXn9j3/eVN1Krpf3xz9gbhkq33gcXy/ANHU6Vyr7aN08p3w687cbMOUj/Qljnk75+s8l0we129rJPMv7tWrANu8+ovw/rjuK4b0LmddoZcYf2Athuoo+Lyy7C75tnKBHTO6nDzKBUwsNqAu5jmKzK7VSP0ENodSzfFtZey1w6SKXWleT27U4XQJTT88j8trr4Ey/s06e8T10p5j7RiUVx9CSPtGDmGxeUXM71PIzLbm50J38wlApo+s3BXXH4x02cWRFZsdif73sURmWoMTxXnp5yqMT2Sisz3ltczF0dIKjH7WvhOIuFEO0QuEpLw6EE7RC6JhIF2iFwSCU0vS2USmt4HlljT2N48jCQSJtop8ojsOZleeu9EElrex5dpRJkeTWUSGu4H9zJPV1zH8IQhMpg6d6OdI5vMUGO5G7UqLr4cu4+izL6F5Ygi3bZ3Vm/UV7GEZk9+ySW0ugclNF98iC32v2sf2fNpx0kjGtBk83RWXHd5Jo+23QsGNLqH0S+uvCybg2nvRS6hdpQsIv2oI7Ptb6E3fcsNm+xj+lcx/PVnoSfR7iUUGk5n2inySJxQNDoXfhHoZmyL/4uq2jOG6d7+0aFuwn/aCQrt6wW0/rWno4c6Aa02aXw12m62d7q/PVVP2JZfAqn8KFrszqSruGE61K77CpVWb7YP1JxLjxgP+lHUH6QPRe0KmHZ4P9kdvv542F0ufdp0i37wj37Hs7NXotXZRkcbZvpz85/LmKSupk8upNHOU7HdMkkehuPMn0K+34eT/mTavZ/dAwAAAAAAAAAAAAAAAAAAAAAAAAAAAPDL/Qd1QiS0LZvdpgAAAABJRU5ErkJggg==" alt=""></a>
+        </div>
+        <div class="card-content">
+            <p>test image1</p>
+        </div>
+        <div class="card-action">
+            <a href="/">View listing: Price testprice</a>
+        </div>
+    </div>
+</div>
+<div class="col s4">
+    <div class="card">
+        <div class="card-image">
+            <a href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD////MzMzj4+O3t7fx8fGmpqaysrKOjo7Gxsa9vb38/PypqamsrKzu7u5ra2vc3Nx4eHglJSXS0tIQEBBgYGBFRUXCwsJMTEw3Nzeenp4bGxtYWFiCgoLf39+YmJiGhoYxMTEiIiJUVFR0dHQNDQ2QjkL6AAADdklEQVR4nO3c61LiQBCGYQYIIQQ0KoiALLC693+LKx4ZyImkU92J7/NXquyvksxMegZ6PQAAAAAAAAAAAAAAAAAAAAAA0C3zl7l2CU3aRoFzz9pVNGYzdO9utQtpymc+5xbalTTjzn171K6lEcufgE67lkYMTgLG2sU0ITgJ6CLtahpwegWdG2uXI2/iBezgY3jrB+xr1yMv9hN2bzac+gEH2vXI8wN2cFE68gMuteuR5z+FHZztF/4lfNKuR97MC3inXU4DvOXMXruaJpwG7OSb7+Yn381Ku5hGHL4DrrVLacjqM1+oXUhj3u7SeBB28gHspsV4FIazcfbLw/NukgQuGEThuH3dqKfwZOZL1veXn9j3/eVN1Krpf3xz9gbhkq33gcXy/ANHU6Vyr7aN08p3w687cbMOUj/Qljnk75+s8l0we129rJPMv7tWrANu8+ovw/rjuK4b0LmddoZcYf2Athuoo+Lyy7C75tnKBHTO6nDzKBUwsNqAu5jmKzK7VSP0ENodSzfFtZey1w6SKXWleT27U4XQJTT88j8trr4Ey/s06e8T10p5j7RiUVx9CSPtGDmGxeUXM71PIzLbm50J38wlApo+s3BXXH4x02cWRFZsdif73sURmWoMTxXnp5yqMT2Sisz3ltczF0dIKjH7WvhOIuFEO0QuEpLw6EE7RC6JhIF2iFwSCU0vS2USmt4HlljT2N48jCQSJtop8ojsOZleeu9EElrex5dpRJkeTWUSGu4H9zJPV1zH8IQhMpg6d6OdI5vMUGO5G7UqLr4cu4+izL6F5Ygi3bZ3Vm/UV7GEZk9+ySW0ugclNF98iC32v2sf2fNpx0kjGtBk83RWXHd5Jo+23QsGNLqH0S+uvCybg2nvRS6hdpQsIv2oI7Ptb6E3fcsNm+xj+lcx/PVnoSfR7iUUGk5n2inySJxQNDoXfhHoZmyL/4uq2jOG6d7+0aFuwn/aCQrt6wW0/rWno4c6Aa02aXw12m62d7q/PVVP2JZfAqn8KFrszqSruGE61K77CpVWb7YP1JxLjxgP+lHUH6QPRe0KmHZ4P9kdvv542F0ufdp0i37wj37Hs7NXotXZRkcbZvpz85/LmKSupk8upNHOU7HdMkkehuPMn0K+34eT/mTavZ/dAwAAAAAAAAAAAAAAAAAAAAAAAAAAAPDL/Qd1QiS0LZvdpgAAAABJRU5ErkJggg==" alt=""></a>
+        </div>
+        <div class="card-content">
+            <p>test image1</p>
+        </div>
+        <div class="card-action">
+            <a href="/">View listing: Price testprice</a>
+        </div>
+    </div>
+</div>
+<div class="col s4">
+    <div class="card">
+        <div class="card-image">
+            <a href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD////MzMzj4+O3t7fx8fGmpqaysrKOjo7Gxsa9vb38/PypqamsrKzu7u5ra2vc3Nx4eHglJSXS0tIQEBBgYGBFRUXCwsJMTEw3Nzeenp4bGxtYWFiCgoLf39+YmJiGhoYxMTEiIiJUVFR0dHQNDQ2QjkL6AAADdklEQVR4nO3c61LiQBCGYQYIIQQ0KoiALLC693+LKx4ZyImkU92J7/NXquyvksxMegZ6PQAAAAAAAAAAAAAAAAAAAAAA0C3zl7l2CU3aRoFzz9pVNGYzdO9utQtpymc+5xbalTTjzn171K6lEcufgE67lkYMTgLG2sU0ITgJ6CLtahpwegWdG2uXI2/iBezgY3jrB+xr1yMv9hN2bzac+gEH2vXI8wN2cFE68gMuteuR5z+FHZztF/4lfNKuR97MC3inXU4DvOXMXruaJpwG7OSb7+Yn381Ku5hGHL4DrrVLacjqM1+oXUhj3u7SeBB28gHspsV4FIazcfbLw/NukgQuGEThuH3dqKfwZOZL1veXn9j3/eVN1Krpf3xz9gbhkq33gcXy/ANHU6Vyr7aN08p3w687cbMOUj/Qljnk75+s8l0we129rJPMv7tWrANu8+ovw/rjuK4b0LmddoZcYf2Athuoo+Lyy7C75tnKBHTO6nDzKBUwsNqAu5jmKzK7VSP0ENodSzfFtZey1w6SKXWleT27U4XQJTT88j8trr4Ey/s06e8T10p5j7RiUVx9CSPtGDmGxeUXM71PIzLbm50J38wlApo+s3BXXH4x02cWRFZsdif73sURmWoMTxXnp5yqMT2Sisz3ltczF0dIKjH7WvhOIuFEO0QuEpLw6EE7RC6JhIF2iFwSCU0vS2USmt4HlljT2N48jCQSJtop8ojsOZleeu9EElrex5dpRJkeTWUSGu4H9zJPV1zH8IQhMpg6d6OdI5vMUGO5G7UqLr4cu4+izL6F5Ygi3bZ3Vm/UV7GEZk9+ySW0ugclNF98iC32v2sf2fNpx0kjGtBk83RWXHd5Jo+23QsGNLqH0S+uvCybg2nvRS6hdpQsIv2oI7Ptb6E3fcsNm+xj+lcx/PVnoSfR7iUUGk5n2inySJxQNDoXfhHoZmyL/4uq2jOG6d7+0aFuwn/aCQrt6wW0/rWno4c6Aa02aXw12m62d7q/PVVP2JZfAqn8KFrszqSruGE61K77CpVWb7YP1JxLjxgP+lHUH6QPRe0KmHZ4P9kdvv542F0ufdp0i37wj37Hs7NXotXZRkcbZvpz85/LmKSupk8upNHOU7HdMkkehuPMn0K+34eT/mTavZ/dAwAAAAAAAAAAAAAAAAAAAAAAAAAAAPDL/Qd1QiS0LZvdpgAAAABJRU5ErkJggg==" alt=""></a>
+        </div>
+        <div class="card-content">
+            <p>test image1</p>
+        </div>
+        <div class="card-action">
+            <a href="/">View listing: Price testprice</a>
+        </div>
+    </div>
+</div>
+
+</div>
+{% endblock %}

@@ -20,4 +20,5 @@ from my_app import views#custom
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name='home'),#custom
+    path('new_search',views.new_search,name='new_search'),
 ]
